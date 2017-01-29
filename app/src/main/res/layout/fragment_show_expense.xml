@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kishore.mad.com.expenseapp.ShowExpenseFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="group27.mad.com.expenseapp.ShowExpenseActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expense_details"
+            android:id="@+id/Expense_details"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:id="@+id/name_text"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/Expense_details"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_value"
+            android:id="@+id/name_val"
+            android:textColor="@android:color/black"
+            android:layout_alignBottom="@+id/name_text"
+            android:layout_alignLeft="@+id/Expense_details"
+            android:layout_alignStart="@+id/Expense_details" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Category"
+            android:id="@+id/category_text"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/name_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catergory_value"
+            android:textColor="@android:color/black"
+            android:id="@+id/category_val"
+            android:layout_alignTop="@+id/category_text"
+            android:layout_alignLeft="@+id/name_val"
+            android:layout_alignStart="@+id/name_val" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Amount"
+            android:id="@+id/amount_text"
+            android:layout_below="@+id/category_text"
+            android:textColor="@android:color/black"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_value"
+            android:id="@+id/amount_val"
+            android:textColor="@android:color/black"
+            android:layout_alignBottom="@+id/amount_text"
+            android:layout_alignLeft="@+id/category_val"
+            android:layout_alignStart="@+id/category_val" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Date"
+            android:id="@+id/date_text"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/amount_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_value"
+            android:id="@+id/date_val"
+            android:textColor="@android:color/black"
+            android:layout_alignBottom="@+id/date_text"
+            android:layout_alignLeft="@+id/amount_val"
+            android:layout_alignStart="@+id/amount_val" />
+
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/receiptval_icon"
+            android:layout_below="@+id/date_val"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:id="@+id/closeButton"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/Expense_details"
+            android:layout_alignEnd="@+id/Expense_details" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kishore.mad.com.expenseapp.AddExpenseFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linLayMain">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAddExpense"
+            android:layout_margin="5dp"
+            android:text="@string/labelAddExpenseTitle"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:id="@+id/tvExpenseName"
+            android:text="@string/labelExpName"
+            android:textSize="17sp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etExpName"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:id="@+id/tvExpCategory"
+            android:text="@string/labelExpCategory"
+            android:textSize="17sp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="14dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerCategory"
+            tools:listitem="@android:layout/activity_list_item"
+            android:spinnerMode="dialog"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAmount"
+            android:text="@string/labelAmount"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:paddingTop="10dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            android:layout_marginTop="7dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etAmount"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:inputType="numberDecimal"
+            tools:inputType="number" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddExpense"
+        android:padding="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/btnAddExpense"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:padding="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="@string/cancel"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

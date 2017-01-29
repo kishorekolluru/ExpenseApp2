@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Expense App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_expenses">Current Expenses:</string>
+    <string name="there_is_no_expense_to_show_please_add_your_expenses_from_the_menu">There is no expense to show, Please add your expenses from the menu.</string>
+    <string name="labelAddExpenseTitle">Add Expense</string>
+    <string name="labelExpName">Expense Name</string>
+    <string name="labelExpCategory">Category</string>
+    <string name="labelAmount">Amount</string>
+    <string name="labelDate">Date</string>
+    <string name="labelReceipt">Receipt</string>
+    <string name="textBtnSelectExpense">Select Expense</string>
+    <string name="textBtnSave">Save</string>
+    <string name="btnAddExpense">Add Expense</string>
+    <string-array name="spinnerEntries">
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="textSelectCategorySpinnerPrompt">Select Category</string>
+
+    <string name="textBtnDelete">Delete</string>
+    <string name="textBtnCancel">Cancel</string>
+    <string name="textPickExpense">Pick Expense</string>
+    <string name="expense_details">Expense Details</string>
+    <string name="Name">Name</string>
+    <string name="Category">Category</string>
+    <string name="Amount">Amount</string>
+    <string name="Date">Date</string>
+    <string name="Receipt">Receipt</string>
+    <string name="name_value" />
+    <string name="category_value" />
+    <string name="catergory_value" />
+    <string name="amount_value" />
+    <string name="date_value" />
+    <string name="finish">finish</string>
+    <string name="close">Close</string>
+</resources>
